@@ -1,5 +1,5 @@
 import {assert} from "chai";
-import {convertFrac} from "../../src/kyu.five/common-denominator";
+import {convertFrac} from "../../src/kata/kyu/six/common-denominator";
 
 const tester = (lst: [number, number][]) => {
     const dividers = lst.map(p => p[1])

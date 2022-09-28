@@ -4,7 +4,6 @@
   "description": "Playground for playing around with TypeScript",
   "main": "index.js",
   "scripts": {
-    "install": "npm install",
     "build": "tsc -p .",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
     "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"

@@ -1,6 +1,7 @@
 import {assert} from 'chai';
 import '../src/extensions';
-import {compare, G964, likes} from "../src/solutions";
+import {G964, likes} from "../src/kata/kyu/six/solutions";
+import {compare} from "../src/kata/kyu/seven/jaden-case";
 
 const Test = {
     assertEquals: (...args: any[]) => (assert as any).equal(...args),

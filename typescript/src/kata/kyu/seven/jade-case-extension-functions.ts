@@ -22,4 +22,3 @@ interface Number {
 Number.prototype.pow = function (power?: number) : number {
     return Math.pow(this.valueOf(), power || 2);
 }
-

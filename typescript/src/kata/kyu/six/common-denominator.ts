@@ -1,3 +1,6 @@
+/*
+* https://www.codewars.com/kata/54d7660d2daf68c619000d95/typescript
+*/
 
 const convertFrac = (lst: [number, number][]): string => {
     const nom = lst.map(p => p[1])
