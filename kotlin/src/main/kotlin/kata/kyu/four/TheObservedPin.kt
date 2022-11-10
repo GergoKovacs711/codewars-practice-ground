@@ -1,5 +1,8 @@
 package kata.kyu.four
 
+/**
+ * https://www.codewars.com/kata/5263c6999e0f40dee200059d
+ */
 fun getPINs(observed: String): List<String> {
     val adjacentMap = mapOf(
         0 to intArrayOf(8),
@@ -13,8 +16,7 @@ fun getPINs(observed: String): List<String> {
         8 to intArrayOf(0, 5, 7, 9),
         9 to intArrayOf(6, 8),
     )
-    val listVisitor = { depth: Int, level: (Int) -> IntArray? ->
-    }
+    val listVisitor = { depth: Int, level: (Int) -> IntArray? -> }
     val numbers = observed
         .map { it.digitToInt() }
         .mapNotNull { adjacentMap[it] }
