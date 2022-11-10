@@ -2,3 +2,4 @@
 /kotlin/.gradle/
 /kotlin/.idea/
 /kotlin/build/
+/rust/target/
