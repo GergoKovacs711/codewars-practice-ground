@@ -1,3 +1,5 @@
+pub mod kyu_eight;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Rust codewars main function was run!")
 }
